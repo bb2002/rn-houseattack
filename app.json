@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "houseattack",
+    "slug": "houseattack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic-houseattack.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic-houseattack.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "dev.ballbot.houseattack"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/ic-houseattack.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/ic-houseattack.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a8adb9e2-7a18-4db9-852d-6ae6d9776a78"
+      }
+    }
+  }
+}
